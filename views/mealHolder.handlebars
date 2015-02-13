@@ -43,7 +43,7 @@
 <div class="container">
 
 <!--meal title-->
-<div class="meal-title"><b>Burgers and fries</b></div>
+<div class="meal-title"><b>{{name}}</b></div>
     
 <!--mood-->
 <div class="mood">
@@ -53,14 +53,14 @@
 <!--time and date-->
 <div style="width: 100%; display: table;">
     <div style="display: table-row">
-        <div class="time" style="display: table-cell;">8:00 AM</div>
-        <div class="date" style="display: table-cell;">Monday, February 9, 2015</div>
+        <div class="time" style="display: table-cell;">{{time}}</div>
+        <div class="date" style="display: table-cell;">{{day}}, {{month}}, {{year}}</div>
      </div>
 </div><br>
 
 <!--meal description-->
 <div class="caption">
-    <span class="glyphicon glyphicon-comment" style="color:#ccc"></span> Boggarts lavender robes, Hermione Granger Fantastic Beasts and Where to Find Them #burgers.<br>
+    <span class="glyphicon glyphicon-comment" style="color:#ccc"></span> {{desc}}<br>
 </div><br>
     
 </div><!--end container-->
